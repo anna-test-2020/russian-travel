@@ -5,10 +5,15 @@
   font-style: normal;
   font-size: 96px;
   font-weight: 900;
-  font-size: 72px;
   line-height: 1.06;
   text-align: center;
   color: #fff;
+}
+
+@media (max-width: 768px) {
+  .cover__title {
+    font-size: 72px;
+  }
 }
 
 @media (max-width: 425px) {
