@@ -1,0 +1,28 @@
+.places__row {
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  column-gap: 40px;
+}
+
+.places__row:first-of-type {
+  align-items: end;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .places__row {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .places__row {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+  }
+
+  .places__row:first-of-type {
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+}

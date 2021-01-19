@@ -1,0 +1,32 @@
+.cover__overlay {
+  background-color: transparent;
+  height: 740px;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+}
+
+@media (max-width: 1024px) {
+  .cover__overlay {
+    height: 640px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__overlay {
+    height: 480px;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover__overlay {
+    height: 300px;
+  }
+}
