@@ -18,8 +18,14 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 525px) {
   .cover__background {
     height: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover__background {
+    height: 200px;
   }
 }

@@ -2,8 +2,9 @@
   display: flex;
   min-height: 52px;
   max-width: 1184px;
-  position: relative;
   margin: 28px 48px 0;
+  justify-content: space-between;
+  align-items: flex-end;  
 }
 
 @media (max-width: 768px) {

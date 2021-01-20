@@ -2,10 +2,7 @@
   width: 74px;
   height: auto;
   list-style: none;
-  position: absolute;
-  right: 0;
-  top: 14px;
-  margin: 0;
+  margin: 0 0 5px 0;
   padding: 0;
   display: flex;
   justify-content: space-between;

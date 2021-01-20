@@ -1,0 +1,30 @@
+.photo-grid__list {
+  display: grid;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  column-gap: 16px;
+  row-gap: 16px;
+  grid-template-columns: repeat(4, 1fr);
+}
+   
+@media (max-width: 1024px) {
+  .photo-grid__list {
+    grid-template-columns: repeat(3, 1fr);    
+  }
+}
+
+@media (max-width: 768px) {
+  .photo-grid__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 525px) {
+  .photo-grid__list {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0;
+    row-gap: 12px;
+  }
+}
