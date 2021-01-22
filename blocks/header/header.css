@@ -14,10 +14,15 @@
   }
 }
 
+@media (max-width: 700px) {
+  .header {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
 @media (max-width: 425px) {
   .header {
     margin-top: 16px;
-    margin-left: 16px;
-    margin-right: 16px;
   }
 }

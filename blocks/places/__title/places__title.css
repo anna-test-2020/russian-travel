@@ -16,7 +16,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 730px) {
   .places__title {
     font-size: 32px;
     line-height: 1.09;
