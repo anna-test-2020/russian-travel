@@ -1,6 +1,6 @@
 .cover__overlay {
-  background-color:  rgba(42, 44, 47, 0.2);
-  height: 740px;
+  background-color:  rgba(42, 44, 47, 0.3);
+  min-height: 740px;
   width: 100%;
   display: flex;
   text-decoration: none;
@@ -15,24 +15,24 @@
 
 @media (max-width: 1024px) {
   .cover__overlay {
-    height: 640px;
+    min-height: 640px;
   }
 }
 
 @media (max-width: 768px) {
   .cover__overlay {
-    height: 480px;
+    min-height: 480px;
   }
 }
 
 @media (max-width: 525px) {
   .cover__overlay {
-    height: 300px;
+    min-height: 300px;
   }
 }
 
 @media (max-width: 320px) {
   .cover__overlay {
-    height: 200px;
+    min-height: 200px;
   }
 }
