@@ -1,15 +1,5 @@
 .lead__illustration {
   width: 100%;
-  /* min-height: 615px;
-  height: 100%;
-  position: relative;
-  display: block; */
-  /* background-image: url(../../../images/lead-polka.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat; */
-}
-
-figure.fixedratio {
   padding-top: 62.5%;
   margin: 0;
   background-image: url(../../../images/group4.svg), url(../../../images/lead-polka.jpg);
@@ -20,6 +10,7 @@ figure.fixedratio {
 
 @media (max-width: 768px) {
   .lead__illustration {
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
