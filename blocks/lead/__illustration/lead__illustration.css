@@ -1,8 +1,21 @@
 .lead__illustration {
   width: 100%;
-  max-height: 615px;
+  /* min-height: 615px;
+  height: 100%;
   position: relative;
-  display: block;
+  display: block; */
+  /* background-image: url(../../../images/lead-polka.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat; */
+}
+
+figure.fixedratio {
+  padding-top: 62.5%;
+  margin: 0;
+  background-image: url(../../../images/group4.svg), url(../../../images/lead-polka.jpg);
+  background-size: 95%, cover;
+  background-position: top 25% center, center;
+  background-repeat:  no-repeat, no-repeat;
 }
 
 @media (max-width: 768px) {
