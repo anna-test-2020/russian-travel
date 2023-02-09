@@ -15,7 +15,7 @@
 
 
 
-.lead__img {
+.lead__main-track {
   width: calc(100% - 44px);
   margin-left: 22px;
   margin-right: 22px;
@@ -23,6 +23,8 @@
   top: 85px;
   left: 0;
 }
-.lead__background {
+.lead__main-illustration {
   width: 100%;
+  max-height: 580px;
+  object-fit: cover;
 }
