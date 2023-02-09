@@ -1,11 +1,7 @@
 .lead__illustration {
   width: 100%;
-  padding-top: 62.5%;
   margin: 0;
-  background-image: url(../../../images/group4.svg), url(../../../images/lead-polka.jpg);
-  background-size: 95%, cover;
-  background-position: top 25% center, center;
-  background-repeat:  no-repeat, no-repeat;
+  position: relative;
 }
 
 @media (max-width: 768px) {
@@ -13,4 +9,20 @@
     padding-left: 0;
     padding-right: 0;
   }
+}
+
+
+
+
+
+.lead__img {
+  width: calc(100% - 44px);
+  margin-left: 22px;
+  margin-right: 22px;
+  position: absolute;
+  top: 85px;
+  left: 0;
+}
+.lead__background {
+  width: 100%;
 }
