@@ -1,3 +1,11 @@
+.lead__main-track {
+  width: calc(100% - 44px);
+  margin-left: 22px;
+  margin-right: 22px;
+  position: absolute;
+  top: 85px;
+  left: 0;
+}
 /* .lead__main-track {
   position: absolute;
   top: 15%;
