@@ -7,7 +7,7 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   margin-bottom: 0;
-  transform: translate(0, 22px);
+  margin-top: 8px;
 }
 
 @media (max-width: 768px) {
